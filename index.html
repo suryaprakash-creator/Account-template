@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Account Management System</h1>
+
+  <div class="form-container">
+    <input type="text" id="name" placeholder="Enter Name" />
+    <input type="email" id="email" placeholder="Enter Email" />
+    <button onclick="addAccount()">Add Account</button>
+
+    <hr/>
+    <button onclick="searchAccount()">Search Account by Email</button>
+    <button onclick="countAccounts()">Count Total Accounts</button>
+  </div>
+
+  <div class="account-list" id="accountList">
+    <!-- Account items will appear here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
